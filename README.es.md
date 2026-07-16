@@ -4,7 +4,7 @@
 
 EZORaidPlanner es una herramienta local para raid leaders de ESO, parte de la familia EZO, orientada a planificar grupos de dungeons y trials.
 
-Soporte, errores y sugerencias: Discord de EZO (enlace fijado en #ezo-core).
+Soporte, errores y sugerencias: https://discord.gg/Vnsj32nMq
 
 ## Estado
 
