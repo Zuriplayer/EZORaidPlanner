@@ -1,14 +1,15 @@
 # Discord automation notes (maintainers)
 
-This addon is meant to follow the same optional GitHub Actions + Discord
-webhook pattern used by other EZO addons (see `Zuriplayer/EZOGroupFrames`
-and `Zuriplayer/EZOAddonsUtility`): workflow_dispatch jobs build a clean
-zip and post status/release/beta messages to dedicated Discord channels via
+This addon follows the same optional GitHub Actions + Discord webhook
+pattern used by other EZO addons (see `Zuriplayer/EZOGroupFrames` and
+`Zuriplayer/EZOAddonsUtility`): workflow_dispatch jobs build a clean zip
+and post status/release/beta messages to dedicated Discord channels via
 repository secrets.
 
-Pending ports for EZORaidPlanner (intentionally left as a to-do rather than
-retyped by hand here, to avoid transcription errors in release/publishing
-automation):
+## Ported automation
+
+The following files were ported from `Zuriplayer/EZOGroupFrames` and
+adjusted for EZORaidPlanner:
 
 - `scripts/ezo/build-addon-package.ps1`
 - `scripts/ezo/publish-status.ps1`, `publish-beta.ps1`, `publish-release.ps1`,
@@ -18,6 +19,18 @@ automation):
 - `.github/workflows/ezo-beta.yml`, `ezo-release.yml`, `ezo-status.yml`,
   `ezo-discord-webhook-audit.yml`
 
-Copy these from an existing EZO addon repo and adjust the addon name and
-env vars, then configure the matching repository secrets under
-Settings > Secrets and variables > Actions.
+## Required repository secrets
+
+Configure these under Settings > Secrets and variables > Actions:
+
+- `CODEX_LOG`
+- `EZO_CODEX_ANNOUNCER`
+- `EZO_CODEX_BETA_BUILDS`
+- `EZO_CODEX_BUG_REPORTS`
+- `EZO_CODEX_DOWNLOADS`
+- `EZO_CODEX_RELEASES`
+- `EZO_CODEX_STATUS`
+
+Each secret holds a Discord webhook URL for its matching channel. The
+workflows only ever reference these via `${{ secrets.NAME }}`; the actual
+webhook values are never committed to the repository.
