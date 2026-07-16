@@ -1,0 +1,21 @@
+## Title: E|cB040FFZ|rO Raid Planner
+## Author: @Zuriplayer
+## Description: EZO-family raid/trial and dungeon event planner. Schedule events, pick players, track results.
+## Version: 0.0.1
+## AddOnVersion: 10000
+## APIVersion: 101049 101050
+## DependsOn: LibAddonMenu-2.0
+## OptionalDependsOn: EZOCore LibChatMessage LibDebugLogger DebugLogViewer
+## SavedVariables: EZORaidPlanner_Saved
+
+lang/en.lua
+lang/es.lua
+modules/i18n.lua
+EZORaidPlanner.lua
+modules/core.lua
+modules/lam_registry.lua
+modules/event_manager.lua
+modules/player_selector.lua
+modules/results.lua
+modules/main_window.lua
+modules/menu.lua
