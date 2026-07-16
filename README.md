@@ -4,7 +4,7 @@ Prefer English? You are reading it. Spanish version: README.es.md
 
 EZORaidPlanner is an early-development addon for The Elder Scrolls Online, part of the EZO family. It helps raid leaders plan dungeon and trial events: schedule, assign a leader, pick players, and record the outcome.
 
-Support, bug reports, and suggestions: EZO Discord (see server invite pinned in #ezo-core).
+Support, bug reports, and suggestions: https://discord.gg/Vnsj32nMq
 
 ## Status
 
