@@ -8,11 +8,12 @@ Soporte, errores y sugerencias: https://discord.gg/Vnsj32nMq
 
 ## Estado
 
-EZORaidPlanner está en fase temprana de desarrollo (etapa de concepto). Nada de lo descrito a continuación es definitivo; el alcance puede cambiar antes de la primera beta pública.
+EZORaidPlanner está en desarrollo. Nada de lo descrito a continuación es definitivo; el alcance puede cambiar antes de la primera beta pública.
 
 ## Alcance previsto
 
 - Gestión de eventos: trial/dungeon, día, hora y líder.
+- Enlace opcional al canal o hilo de Discord guardado con cada evento como referencia del raid leader.
 - Máximo de 5 eventos activos por líder.
 - Selección de jugadores: manual por @account, desde el grupo actual, y desde el roster de la guild cuando la API lo permita de forma cómoda.
 - Resultado final: completada/no completada, puntuación, tiempo, vitality y notas opcionales.
@@ -22,13 +23,13 @@ EZORaidPlanner está en fase temprana de desarrollo (etapa de concepto). Nada de
 - Versión del addon: `0.0.1`
 - AddOnVersion: `10000`
 - APIVersion: `101049 101050`
-- Estado: concepto / desarrollo temprano
+- Estado: desarrollo
 
 ## Requisitos
 
 - Cliente de The Elder Scrolls Online para PC.
+- EZOCore.
 - LibAddonMenu-2.0.
-- Opcional: EZOCore como capa de servicios compartida.
 
 ## Instalación
 

@@ -1,8 +1,8 @@
 # Discord automation notes (maintainers)
 
 This addon follows the same optional GitHub Actions + Discord webhook
-pattern used by other EZO addons (see `Zuriplayer/EZOGroupFrames` and
-`Zuriplayer/EZOAddonsUtility`): workflow_dispatch jobs build a clean zip
+pattern used by other EZO addons (see `Zuriplayer/EZOGroupFrames`):
+workflow_dispatch jobs build a clean zip
 and post status/release/beta messages to dedicated Discord channels via
 repository secrets.
 

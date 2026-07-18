@@ -4,8 +4,8 @@
     "id": "ezoraidplanner",
     "name": "EZORaidPlanner",
     "version": "0.0.1",
-    "status": "concept",
-    "phase": "early-development",
+    "status": "development",
+    "phase": "development",
     "visibility": "public",
     "manifest": "EZORaidPlanner.txt",
     "package": {

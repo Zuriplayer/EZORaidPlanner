@@ -4,15 +4,15 @@
 ## Version: 0.0.1
 ## AddOnVersion: 10000
 ## APIVersion: 101049 101050
-## DependsOn: LibAddonMenu-2.0
-## OptionalDependsOn: EZOCore LibChatMessage LibDebugLogger DebugLogViewer
+## DependsOn: EZOCore LibAddonMenu-2.0
+## OptionalDependsOn: LibChatMessage LibDebugLogger DebugLogViewer
 ## SavedVariables: EZORaidPlanner_Saved
 
+modules/i18n.lua
 lang/en.lua
 lang/es.lua
-modules/i18n.lua
-EZORaidPlanner.lua
 modules/core.lua
+EZORaidPlanner.lua
 modules/lam_registry.lua
 modules/event_manager.lua
 modules/player_selector.lua
