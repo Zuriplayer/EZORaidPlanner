@@ -12,9 +12,9 @@ EZORaidPlanner está en desarrollo. Nada de lo descrito a continuación es defin
 
 ## Alcance previsto
 
-- Gestión de eventos: trial/dungeon, día, hora y líder.
+- Gestión de eventos: trial/dungeon, planificación puntual o repetitiva semanal, fecha o día de la semana, hora en formato 24h y líder.
 - Enlace opcional al canal o hilo de Discord guardado con cada evento como referencia del raid leader.
-- Máximo de 5 eventos activos por líder.
+- Máximo de 10 eventos activos por líder.
 - Selección de jugadores: manual por @account, desde el grupo actual, y desde el roster de la guild cuando la API lo permita de forma cómoda.
 - Resultado final: completada/no completada, puntuación, tiempo, vitality y notas opcionales.
 

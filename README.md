@@ -12,9 +12,9 @@ EZORaidPlanner is in development. Nothing described below is final; the scope ma
 
 ## Planned Scope
 
-- Event management: trial/dungeon, day, time, and leader.
+- Event management: trial/dungeon, one-time or weekly recurring schedule, date or weekday, 24-hour time, and leader.
 - Optional Discord channel/thread link stored with each event for raid leader reference.
-- Maximum of 5 active events per leader.
+- Maximum of 10 active events per leader.
 - Player selection: manual by @account, from the current group, and from the guild roster when the API allows it comfortably.
 - Final result: completed/not completed, score, time, vitality, and optional notes.
 

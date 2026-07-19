@@ -2,7 +2,7 @@ EZORaidPlanner = EZORaidPlanner or {}
 EZORaidPlanner.Core = EZORaidPlanner.Core or {}
 
 EZORaidPlanner.ADDON_NAME = "EZORaidPlanner"
-EZORaidPlanner.ADDON_VERSION = "0.0.1"
+EZORaidPlanner.ADDON_VERSION = "0.0.2"
 EZORaidPlanner.ADDON_AUTHOR = "@Zuriplayer"
 
 -- Central initialization point. Wires together events, player selection,

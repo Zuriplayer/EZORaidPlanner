@@ -10,6 +10,15 @@ local DEFAULTS = {
     nextEventId = 1,
 }
 
+function EZORaidPlanner.Print(message)
+    local text = "|cB040FFEZO|r Raid Planner: " .. tostring(message or "")
+    if CHAT_SYSTEM and CHAT_SYSTEM.AddMessage then
+        CHAT_SYSTEM:AddMessage(text)
+    elseif d then
+        d(text)
+    end
+end
+
 local function OnAddOnLoaded(_, addonName)
     if addonName ~= EZORaidPlanner.name then
         return

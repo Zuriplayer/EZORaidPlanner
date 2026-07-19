@@ -3,14 +3,14 @@
   "addon": {
     "id": "ezoraidplanner",
     "name": "EZORaidPlanner",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "status": "development",
     "phase": "development",
     "visibility": "public",
     "manifest": "EZORaidPlanner.txt",
     "package": {
       "rootFolderName": "EZORaidPlanner",
-      "zipName": "EZORaidPlanner_v0.0.1.zip",
+      "zipName": "EZORaidPlanner_v0.0.2.zip",
       "outputPath": "dist",
       "include": [
         "*.txt",
